@@ -7,41 +7,50 @@
 
 	.container {
 		width: 500px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 200px auto;
+		padding: 10px;
 		
 	}
 
-	.block {
-		width: 400px;
-		height: 400px;
-		position: fixed;
-		top: 200px;
-		background-color: #fc8302;
+		.block {
+			width: 400px;
+			height: 400px;
+			position: fixed;
+			background-color: #fc8302;
+			font-family: 'Playfair Display', serif;
+		}
 
-	}
+	.content {
+		position: relative;
+		color:white;
+		padding: 20px;
+		}
 
 	.author {
+		top: -50px;
 		width: 400px;
-		height: 1600px;
-		font-family: 'Playfair Display', serif;
 		font-size: 40px;
-		text-align: left;
-		top: 210px;
 		position: relative;
 		color: white;
 		letter-spacing: 1px;
-		padding: 20px;
+		
+		}
 
-	}
+	.dates {
+		position: relative;
+		top: -80px;
+		font-size: 15px;
+		}
 
-	.lowercase {
-		text-transform: lowercase;
-	}
 
-	.decoration {
-		text-decoration: underline;
-	}
+	.about {
+		position: relative;
+		top: -60px;
+		width: 360px;
+		font-size: 14px;
+		letter-spacing: 0.8px;
+		font-weight: 300px;
+		}
 
 	</style>
 	</head>
@@ -57,9 +66,21 @@
 
 			<br>
 
-			<div class= "author">
-			NATSUME SOSEKI 
-			</div>
+				<div class= "content">
+
+					<div class= "author">
+					<h5> NATSUME SOSEKI </h5>
+					</div>
+
+					<div class= "dates">
+					1867-1916
+					</div>
+
+					<div class= "about">
+					 Born Natsume Kinnosuke, Kinnosuke was a highly regarded Japanese novelist and poet. His haikus 
+					</div>
+
+				</div>
 
 
 		</div>
