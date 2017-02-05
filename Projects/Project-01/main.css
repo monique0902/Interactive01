@@ -16,7 +16,7 @@ h1{
 	margin: 20px;
 	font-size: 30px;
 	text-transform: uppercase;
-	color: black;
+	color: #fc8302;
 	letter-spacing: 1px;
 }
 
@@ -46,6 +46,14 @@ a:hover{
 
 a:visited {
 	color: #fc8302;
+}
+
+#gradient1 {
+	color: #fc8302;
+}
+
+#gradient2 {
+	color:#fc7302;
 }
 
 
