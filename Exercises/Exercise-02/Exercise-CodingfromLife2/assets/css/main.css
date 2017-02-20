@@ -1,0 +1,506 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+.pinkballoon {
+	width: 250px;
+	height: 250px;
+	background: #f2cbf0;
+	-moz-border-radius: 125px;
+	-webkit-border-radius: 125px;
+	border-radius: 125px;
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	z-index: 1;
+}
+
+
+.blueballoon {
+	width: 110px;
+	height: 110px;
+	background: #2270f7;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	left: 480px;
+	top: 150px;
+	z-index: 1;
+
+}
+
+.greenballoon {
+	width: 180px;
+	height: 180px;
+	background: #75f9ae;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border-radius: 90px;
+	position: absolute;
+	left: 450px;
+	top: 250px;
+	z-index:1;
+
+}
+
+.pineapple {
+	width: 200px;
+	height: 300px;
+	background: #f9cb34;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	left: 320px;
+	top: 150px; 
+	z-index: 1;
+
+}
+
+
+.leaf1{
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 150px solid #499e1f;
+	position: absolute;
+	left: 390px;
+	top: 20px;
+	z-index: 5;
+}
+
+.leaf2{
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 150px solid #499e1f;
+	position: absolute;
+	left: 340px;
+	top: 20px;
+	z-index: 5;
+	transform: rotate(-30deg);
+}
+
+.leaf3{
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 150px solid #499e1f;
+	position: absolute;
+	left: 440px;
+	top: 20px;
+	z-index: 5;
+	transform: rotate(30deg);
+}
+
+
+.stem1 {
+width: 5px;
+height: 200px; 
+position: absolute;
+left: 540px;
+top: 30px;
+background: #2f5b17;
+z-index: 0;
+}
+
+.stem2 {
+width: 5px;
+height: 200px; 
+position: absolute;
+left: 548px;
+top: 50px;
+background: #2f5b17;
+z-index: 0;
+}
+
+.stem3 {
+width: 5px;
+height: 200px; 
+position: absolute;
+left: 531px;
+top: 100px;
+background: #2f5b17;
+z-index: 0;
+}
+
+.stem4 {
+width: 5px;
+height: 200px; 
+position: absolute;
+left: 556px;
+top: 120px;
+background: #2f5b17;
+z-index: 0;
+}
+
+.flowerball {
+	width: 20px;
+	height: 20px;
+	background: #f2d235;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+	left: 541px;
+	top: 45px;
+	z-index:1;
+
+}
+
+.flowerball1 {
+	width: 20px;
+	height: 20px;
+	background: #f2d235;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	left: 532px;
+	top: 13px;
+	z-index:1;
+}
+
+.flowerball2 {
+	width: 20px;
+	height: 20px;
+	background: #f2d235;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	left: 523px;
+	top: 90px;
+	z-index:1;
+
+}
+
+.flowerball3 {
+	width: 20px;
+	height: 20px;
+	background: #f2d235;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	left: 549px;
+	top: 105px;
+	z-index:1;
+
+}
+
+
+
+
+#trianglec {
+	position: absolute;
+	top: 230px;
+	left: 325px;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+}
+
+#triangled {
+	position: absolute;
+	top: 230px;
+	left: 360px;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+}
+ 
+#trianglee {
+	position: absolute;
+	top: 230px;
+	left: 395px;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+}
+
+#trianglef {
+	position: absolute;
+	top: 230px;
+	left: 430px;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+} 
+
+#triangleg {
+	position: absolute;
+	top: 230px;
+	left: 466px;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+} 
+
+#triangleh {
+	position: absolute;
+	top: 230px;
+	left: 501px;
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	z-index:10;
+	transform: rotate(-45deg);
+} 
+
+#trianglebae{
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 300px;
+	left:325px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#trianglebul{
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 300px;
+	left:360px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#trianglebin	{
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 300px;
+	left:394px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#trianglebab{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	border-bottom: 5px solid brown;
+	position: absolute;
+	left:430px;
+	top:300px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+#trianglebus{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	border-bottom: 5px solid brown;
+	position: absolute;
+	left:466px;
+	top:300px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+#trianglebil{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	position: absolute;
+	left:501px;
+	top:300px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+#triangleyey{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 365px;
+	left:324px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangleyel{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 365px;
+	left:359px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangleyen	{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid brown;
+	border-left: 5px solid brown;
+	position:absolute;
+	top: 365px;
+	left:394px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangleyap{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	border-bottom: 5px solid brown;
+	position: absolute;
+	left:429px;
+	top:365px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+#triangleyes{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	border-bottom: 5px solid brown;
+	position: absolute;
+	left:465px;
+	top:365px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+
+#triangleyet{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid brown;
+	position: absolute;
+	left:500px;
+	top:365px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+
+/*#triangletey{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	position:absolute;
+	top: 170px;
+	left:324px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangletal{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	position:absolute;
+	top: 170px;
+	left:359px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangleten	{
+	width: 30px;
+	height: 30px;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	position:absolute;
+	top: 170px;
+	left:394px;
+	transform: rotate(-45deg);
+	z-index: 10;
+}
+
+#triangletap{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid white;
+	border-bottom: 5px solid white;
+	position: absolute;
+	left:429px;
+	top:170px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+
+#triangletes{
+	width: 30px;
+	height: 30px;
+	border-left: 5px solid white;
+	border-bottom: 5px solid white;
+	position: absolute;
+	left:465px;
+	top:170px;
+	z-index: 10;
+	transform: rotate(-45deg);
+
+}
+*/
+
+
+
+ 
+
+
+
+
+
