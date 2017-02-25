@@ -1,0 +1,463 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+.pattern-1{
+	height: 500px;
+	width: 90%;
+	margin: 100px auto;
+	overflow: auto;
+	/* create pattern-1 CSS here */
+}
+
+.c1 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+
+}
+
+.c2 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 90px;
+
+}
+
+.c3 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 60px;
+
+}
+
+.c4 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 80px;
+
+}
+
+.c5 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 100px;
+
+}
+
+.c6 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 110px;
+
+}
+
+.c7 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 120px;
+
+}
+
+.c8 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 130px;
+
+}
+
+.c9 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 140px;
+
+}
+
+.c10 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 150px;
+
+}
+
+
+
+.pattern-2{
+	height: 500px;
+	width: 90%;
+
+	margin: 100px auto;
+	overflow: auto;
+	/* create pattern-2 CSS here */
+}
+
+.d1 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 105px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d2 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 115px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d3 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 125px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d4 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 135px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d5 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 145px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d6 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 95px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d7 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 85px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d8 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 75px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d9 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 65px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d10 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 65px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d11 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 55px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d12 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 45px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d13 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 155px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+.d14 {
+	width: 100px;
+	height: 100px;
+	border:3px solid black;
+	position: absolute;
+	top: 100px;
+	left: 165px;
+	float: left;
+	margin: 15px;
+	transform: rotate(45deg);
+}
+
+
+
+
+
+.pattern-3{	
+	height: 500px;
+	/* create pattern-3 CSS here */
+	
+}
+
+.bluecircle1{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top:700px;
+	left:200px;
+	background-color: rgba(18, 88, 201, 0.4);
+}
+.bluecircle2{
+	width: 500px;
+	height: 500px;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	position: absolute;
+	top:750px;
+	left:400px;
+	background-color: rgba(18, 88, 201, 0.1);
+}
+.bluecircle3{
+	width: 140px;
+	height: 140px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	position: absolute;
+	top: 800px;
+	left:180px;
+	background-color: rgba(18, 88, 201, 0.9);
+}
+
+.bluecircle4{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	position: absolute;
+	top: 900px;
+	left:150px;
+	background-color: rgba(18, 88, 201, 0.5);
+}
+.bluecircle5{
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top:900px;
+	left:750px;
+	background-color: rgba(18, 88, 201, 0.7);
+}
+
+
+.greencircle5{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top:700px;
+	left:500px;
+	background-color: rgba(100, 229, 20, 0.4);
+}
+.greencircle4{
+	width: 550px;
+	height: 550px;
+	-moz-border-radius: 255px;
+	-webkit-border-radius: 255px;
+	border-radius: 255px;
+	position: absolute;
+	top:650px;
+	left:100px;
+	background-color: rgba(100, 229, 20, 0.2);
+}
+.greencircle3{
+	width: 120px;
+	height: 120px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	position: absolute;
+	top: 850px;
+	left:700px;
+	background-color: rgba(100, 229, 20, 0.8);
+}
+
+.greencircle2{
+	width: 380px;
+	height: 380px;
+	-moz-border-radius: 190px;
+	-webkit-border-radius: 190px;
+	border-radius: 190px;
+	position: absolute;
+	top: 900px;
+	left:350px;
+	background-color: rgba(100, 229, 20, 0.6);
+}
+.greencircle1{
+	width: 190px;
+	height: 190px;
+	-moz-border-radius: 95px;
+	-webkit-border-radius: 95px;
+	border-radius: 95px;
+	position: absolute;
+	top:850px;
+	left:50px;
+	background-color: rgba(100, 229, 20, 0.7);
+}
+
+.pattern-4{
+	height: 100%;
+}
+
