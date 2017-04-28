@@ -1,0 +1,194 @@
+<!Doctype html> 
+
+<head>
+<title> Goldilocks </title>
+	
+
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<style sheet= "text/css">
+	
+	@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+	.container {
+		font-family: 'Concert One', cursive;
+		width: 700px;
+		height: 1100px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8%;
+		text-align: left;
+		font-size: 16px;
+		line-height: 0.5em;
+		transition: all 5s ease-in;
+		color: pink;
+
+	}
+
+	#prompt {
+		/*text-transform: uppercase;*/
+		text-align: left;
+		line-height: 27px;
+		position: relative;
+		font-size: 16px;
+
+		/*font-weight: bold;*/
+
+	}
+
+	.red{
+		color:red;
+	}
+
+	.exaggerate{
+		color:#f78902;
+		font-size: 30px;
+	}
+
+	.baday{
+		font-size: 40px;
+		text-transform: uppercase;
+		text-align: center;
+		color: pink;
+
+	}
+
+	textarea{
+		position:relative;
+		top: 4px;
+		left: 2px;
+		font-family: 'Concert One', cursive;
+		/*font-family: "Arial";*/
+		text-align: center;
+		color:#f78902;
+		border: 1px dotted orange;
+		outline: none;
+		resize: none;
+
+	}
+
+
+	a{
+		color: #cf2ef7;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: pink;
+	}
+
+/*	a:visited {
+		color: #000000;
+	}*/
+
+	#option1 {
+
+		position: relative;
+	
+		}
+
+	#option2{
+		position: relative;
+	
+
+	}
+
+	}
+
+	</style>
+
+</head>
+
+<script>
+
+
+
+  window.onbeforeunload = function() {
+    $('textarea').each(function() {
+      var id = $(this).attr('id');
+      var value = $(this).val();
+      localStorage.setItem(id, value);
+    });
+  }
+  window.onload = function() {
+    $('textarea').each(function() {
+      var id = $(this).attr('id');
+      var text2 = localStorage.getItem(id);
+      if (text2 !== null) $('#' + id).val(text2);
+    });
+  }
+
+</script>
+
+<body>
+
+	<div class= "container">
+
+		<div id = "prompt">
+		
+		<span class= "baday"> "Goldilocks" </span> <br> <br>
+		
+
+		Once upon a time, there was a little girl named Goldilocks.  She  went for a walk in the <textarea id= "areab" rows=1 cols=20> </textarea> &nbsp;.  Pretty soon, she came upon a <textarea id= "areac" rows=1 cols=20> </textarea> &nbsp;.  She knocked and, when no one answered, she walked right in. <Br> <br> 
+
+At the table in the kitchen, there were three bowls of porridge.  Goldilocks was hungry.  She tasted the porridge from the first bowl. <br> <br> 
+
+"This porridge is too hot!" she exclaimed.
+
+So, she tasted the porridge from the second bowl.
+
+"This porridge is too cold," she said
+
+So, she tasted the last bowl of porridge.
+
+"Ahhh, this porridge is just right," she said happily and she ate it all up. <br> <br> 
+
+After she'd eaten the three bears' breakfasts she decided she was feeling a little tired.  So, she walked into the living room where she saw three chairs.  Goldilocks sat in the first chair to rest her feet.  <br> <Br> 
+
+"This chair is too big!" she exclaimed.
+
+So she sat in the second chair.
+
+"This chair is too big, too!"  she whined.
+
+So she tried the last and smallest chair.
+
+"Ahhh, this chair is just right," she sighed.  But just as she settled down into the chair to rest, it broke into pieces! <br> <Br> 
+
+Goldilocks was very tired by this time, so she went upstairs to the bedroom.  She lay down in the first bed, but it was too hard.  Then she lay in the second bed, but it was too soft.  Then she lay down in the third bed and it was just right.  Goldilocks fell asleep. <br> <br> 
+
+As she was sleeping, the three bears came home.
+
+"Someone's been eating my porridge," growled the Papa bear.
+
+"Someone's been eating my porridge," said the Mama bear.
+
+"Someone's been eating my porridge and they ate it all up!" cried the Baby bear.
+
+"Someone's been sitting in my chair," growled the Papa bear.
+
+"Someone's been sitting in my chair," said the Mama bear.
+
+"Someone's been sitting in my chair and they've broken it all to pieces," cried the Baby bear.
+
+They decided to look around some more and when they got upstairs to the bedroom, Papa bear growled, "Someone's been sleeping in my bed,"
+
+"Someone's been sleeping in my bed, too" said the Mama bear
+
+"Someone's been sleeping in my bed and she's still there!" exclaimed Baby bear.
+
+Just then, Goldilocks woke up and saw the three bears.  She screamed, "Help!"  And she jumped up and ran out of the room.  Goldilocks ran down the stairs, opened the door, and ran away into the forest.  And she never returned to the home of the three bears. <br> <br> 
+
+Contributed by: <textarea id="areaa" rows=1 cols: 20> </textarea>
+			
+		</div> 
+
+	<!--  -->
+
+	</div>
+
+</body>
+
+</html>

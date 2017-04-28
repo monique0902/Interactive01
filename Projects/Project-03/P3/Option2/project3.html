@@ -1,0 +1,162 @@
+<!Doctype html> 
+
+<head>
+<title> A Bad Day </title>
+	
+
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<style sheet= "text/css">
+	
+	@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+	.container {
+		font-family: 'Concert One', cursive;
+		width: 700px;
+		height: 900px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8%;
+		text-align: left;
+		font-size: 16px;
+		line-height: 0.5em;
+		transition: all 5s ease-in;
+		color: #447e89;
+	}
+
+	#prompt {
+		/*text-transform: uppercase;*/
+		text-align: left;
+		line-height: 27px;
+		position: relative;
+		font-size: 16px;
+
+		/*font-weight: bold;*/
+
+	}
+
+	.red{
+		color:red;
+	}
+
+	.exaggerate{
+		color:#f78902;
+		font-size: 30px;
+	}
+
+	.baday{
+		font-size: 40px;
+		text-transform: uppercase;
+		text-align: center;
+
+	}
+
+	textarea{
+		position:relative;
+		top: 4px;
+		left: 2px;
+		font-family: 'Concert One', cursive;
+		text-align: center;
+		color:#f78902;
+		border: 3px solid orange;
+		outline: none;
+		resize: none;
+	}
+
+
+	a{
+		color: #cf2ef7;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: pink;
+	}
+
+/*	a:visited {
+		color: #000000;
+	}*/
+
+	#option1 {
+
+		position: relative;
+	
+		}
+
+	#option2{
+		position: relative;
+	
+
+	}
+
+	}
+
+	</style>
+
+</head>
+
+<script>
+
+
+
+  window.onbeforeunload = function() {
+    $('textarea').each(function() {
+      var id = $(this).attr('id');
+      var value = $(this).val();
+      localStorage.setItem(id, value);
+    });
+  }
+  window.onload = function() {
+    $('textarea').each(function() {
+      var id = $(this).attr('id');
+      var text2 = localStorage.getItem(id);
+      if (text2 !== null) $('#' + id).val(text2);
+    });
+  }
+
+</script>
+
+<body>
+
+	<div class= "container">
+
+		<div id = "prompt">
+		
+		<span class= "baday"> "A Bad Day" </span> <br> <br>
+		
+
+		A little guy is sitting at the bar just staring at his drink for half an hour when this big <textarea id= "area1" rows= 1 cols= 20 > </textarea> &nbsp; steps next to him, grabs his drink and gulps it down in one swing.
+
+		Then the poor little guy starts crying. <br> <br>
+
+		"Come on, man. I'm just giving you a hard time," the <textarea id = "area2" rows= 1 cols=20> </textarea> &nbsp; says.
+		"I didn't think you'd CRY.  I can't stand to see a man cry." <br> <br> 
+
+		<span class= "exaggerate"> "This is the worst day of my life," </span> says the little guy between sobs...
+		"I can't do anything right. <br> <br> 
+
+
+		As I was running to work, I tripped and fell face first into a pile of <textarea id= "area3" rows= 1 cols =20> </textarea> &nbsp;. 
+
+		Then the wind blew a <textarea id = "area4" rows= 1 cols =20> </textarea> &nbsp; into my face. 
+
+		I arrived to work covered in <textarea id= "area5" rows= 1 cols =20> </textarea> &nbsp; and my boss consequently fired me on the spot. 
+
+		As I walked back home in dismay, I slipped and fell again into the pile of  <textarea id = "area6" rows= 1 cols =20> </textarea> &nbsp;. 
+
+		As if this day could get any worse, I finally came home to find my wife in bed with the <textarea id="area7" rows= 1 cols =20> </textarea> &nbsp; and then a <textarea  id= "area8" rows=1 cols =20> </textarea> &nbsp; bit me. So, I came to this bar trying to work up the courage to put an end to my life, and then you show up and drink the damn poison."
+
+		<br> <br>
+		Contributed by: <textarea id="area9" rows=1 cols=20> </textarea>
+			
+		</div> 
+
+	<!--  -->
+
+	</div>
+
+</body>
+
+</html>
